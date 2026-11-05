@@ -1,0 +1,183 @@
+# English messages file (sample subset)
+
+auth.signup.email_required:
+  other: "Email is required"
+auth.signup.email_already_exists:
+  other: "Email is already in use"
+auth.signup.invalid_email:
+  other: "Invalid email format"
+auth.signup.password_required:
+  other: "Password is required"
+auth.signup.invalid_password:
+  other: "Password must be at least 8 characters and contain letters, numbers, and special characters"
+auth.signup.name_required:
+  other: "Name is required"
+auth.signup.nickname_required:
+  other: "Nickname is required"
+auth.signup.invalid_nickname:
+  other: "Nickname must be 2-20 characters and contain only letters, numbers, and Korean characters"
+auth.signup.nickname_discriminator_full:
+  other: "This nickname is no longer available"
+
+auth.signup.success:
+  other: "Signup completed successfully"
+
+auth.login.invalid_credentials:
+  other: "Invalid email or password"
+auth.login.account_inactive:
+  other: "Account is inactive"
+auth.login.email_not_verified:
+  other: "Email verification required. Please request a verification code"
+
+auth.login.success:
+  other: "Login successful"
+
+auth.logout.failed:
+  other: "Failed to process logout"
+
+auth.logout.success:
+  other: "Logged out successfully"
+
+auth.token.required:
+  other: "Authentication token is required"
+auth.token.invalid:
+  other: "Invalid token"
+auth.token.expired:
+  other: "Token has expired"
+auth.token.malformed:
+  other: "Malformed token"
+auth.token.refresh_invalid:
+  other: "Invalid refresh token"
+auth.token.refresh_expired:
+  other: "Refresh token has expired"
+
+auth.refresh.success:
+  other: "Token refreshed successfully"
+
+auth.withdraw.user_not_found:
+  other: "User not found"
+auth.withdraw.password_mismatch:
+  other: "Password does not match"
+auth.withdraw.already_withdrawn:
+  other: "Account has already been withdrawn"
+
+auth.withdraw.success:
+  other: "Account withdrawn successfully"
+
+auth.reauth.required:
+  other: "Please verify your identity again to continue"
+auth.reauth.invalid:
+  other: "Identity verification expired or is invalid. Please verify again"
+auth.reauth.password_not_set:
+  other: "This account has no password. Please verify with a linked social account"
+auth.reauth.invalid_request:
+  other: "Invalid re-authentication request"
+
+auth.reauth.success:
+  other: "Identity verified"
+
+auth.email.already_verified:
+  other: "Email is already verified"
+auth.email.verification_not_found:
+  other: "Verification request not found"
+auth.email.verification_expired:
+  other: "Verification code has expired"
+auth.email.verification_invalid:
+  other: "Invalid verification code"
+auth.email.send_failed:
+  other: "Failed to send verification email"
+
+auth.email.verification_sent:
+  other: "Verification code has been sent"
+auth.email.verified:
+  other: "Email verified successfully"
+
+auth.password.reset_not_found:
+  other: "Password reset request not found"
+auth.password.reset_expired:
+  other: "Password reset code has expired"
+auth.password.reset_invalid:
+  other: "Invalid password reset code"
+
+auth.password.reset_email_sent:
+  other: "Password reset code has been sent"
+auth.password.reset_success:
+  other: "Password has been reset successfully"
+
+auth.otp.max_attempts_exceeded:
+  other: "Too many attempts. Please request a new code."
+
+auth.internal_error:
+  other: "An error occurred during authentication"
+
+
+health.check.success:
+  other: "Service is running normally"
+health.check.partial_failure:
+  other: "Some services are experiencing issues"
+
+
+auth.oauth.invalid_request:
+  other: "Invalid OAuth request"
+auth.oauth.state_invalid:
+  other: "Invalid authentication state. Please try again"
+auth.oauth.code_required:
+  other: "Authorization code is required"
+auth.oauth.exchange_failed:
+  other: "Failed to exchange OAuth token"
+
+auth.oauth.user_info_failed:
+  other: "Failed to retrieve user information"
+auth.oauth.email_required:
+  other: "Email information is required"
+
+auth.oauth.account_exists:
+  other: "Social account is already linked"
+auth.oauth.provider_invalid:
+  other: "Unsupported OAuth provider"
+
+auth.oauth.login_success:
+  other: "Social login successful"
+auth.oauth.signup_success:
+  other: "Signed up with social account"
+
+auth.oauth.internal_error:
+  other: "An error occurred while processing OAuth"
+
+auth.oauth.redirect_invalid:
+  other: "Invalid redirect URL"
+auth.oauth.code_expired:
+  other: "Authentication code has expired. Please try again"
+auth.oauth.auth_denied:
+  other: "Authentication was denied"
+
+auth.oauth.not_linked:
+  other: "This social account is not linked"
+auth.oauth.reauth_mismatch:
+  other: "Please verify with the social account linked to this account"
+auth.login_method.last_method:
+  other: "You cannot remove your last sign-in method. To delete your account, please withdraw instead"
+
+auth.oauth.start_success:
+  other: "Social authorization URL issued"
+auth.oauth.link_success:
+  other: "Social account linked"
+auth.oauth.unlink_success:
+  other: "Social account unlinked. Please sign in again"
+auth.oauth.reauth_verified:
+  other: "Identity verified with your social account"
+
+auth.oauth.exchange_success:
+  other: "Token exchange successful"
+
+
+common.rate_limit_exceeded:
+  other: "Too many requests. Please try again later"
+common.not_found:
+  other: "Requested resource was not found"
+common.client_id_required:
+  other: "Client identifier is required"
+common.client_not_allowed:
+  other: "Client is not allowed"
+common.request_too_large:
+  other: "Request body is too large"

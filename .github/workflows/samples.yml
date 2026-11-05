@@ -1,0 +1,26 @@
+name: samples
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "samples/go/**"
+      - ".github/workflows/samples.yml"
+  pull_request:
+    paths:
+      - "samples/go/**"
+      - ".github/workflows/samples.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: samples/go
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: samples/go/go.mod
+      - run: go vet ./...
+      - run: go test -count=1 ./...

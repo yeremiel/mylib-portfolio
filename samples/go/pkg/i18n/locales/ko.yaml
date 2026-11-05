@@ -1,0 +1,183 @@
+# Korean messages file (sample subset)
+
+auth.signup.email_required:
+  other: "이메일은 필수 입력 항목입니다"
+auth.signup.email_already_exists:
+  other: "이미 사용 중인 이메일입니다"
+auth.signup.invalid_email:
+  other: "유효하지 않은 이메일 형식입니다"
+auth.signup.password_required:
+  other: "비밀번호는 필수 입력 항목입니다"
+auth.signup.invalid_password:
+  other: "비밀번호는 8자 이상이며, 영문, 숫자, 특수문자를 포함해야 합니다"
+auth.signup.name_required:
+  other: "이름은 필수 입력 항목입니다"
+auth.signup.nickname_required:
+  other: "닉네임은 필수 입력 항목입니다"
+auth.signup.invalid_nickname:
+  other: "닉네임은 2-20자의 영문, 숫자, 한글만 사용할 수 있습니다"
+auth.signup.nickname_discriminator_full:
+  other: "해당 닉네임은 더 이상 사용할 수 없습니다"
+
+auth.signup.success:
+  other: "회원가입이 완료되었습니다"
+
+auth.login.invalid_credentials:
+  other: "이메일 또는 비밀번호가 올바르지 않습니다"
+auth.login.account_inactive:
+  other: "비활성화된 계정입니다"
+auth.login.email_not_verified:
+  other: "이메일 인증이 필요합니다. 인증 코드를 요청해주세요"
+
+auth.login.success:
+  other: "로그인에 성공했습니다"
+
+auth.logout.failed:
+  other: "로그아웃 처리 중 오류가 발생했습니다"
+
+auth.logout.success:
+  other: "로그아웃되었습니다"
+
+auth.token.required:
+  other: "인증 토큰이 필요합니다"
+auth.token.invalid:
+  other: "유효하지 않은 토큰입니다"
+auth.token.expired:
+  other: "토큰이 만료되었습니다"
+auth.token.malformed:
+  other: "토큰 형식이 올바르지 않습니다"
+auth.token.refresh_invalid:
+  other: "유효하지 않은 리프레시 토큰입니다"
+auth.token.refresh_expired:
+  other: "리프레시 토큰이 만료되었습니다"
+
+auth.refresh.success:
+  other: "토큰이 갱신되었습니다"
+
+auth.withdraw.user_not_found:
+  other: "사용자를 찾을 수 없습니다"
+auth.withdraw.password_mismatch:
+  other: "비밀번호가 일치하지 않습니다"
+auth.withdraw.already_withdrawn:
+  other: "이미 탈퇴한 계정입니다"
+
+auth.withdraw.success:
+  other: "회원 탈퇴가 완료되었습니다"
+
+auth.reauth.required:
+  other: "이 작업을 하려면 본인 확인이 필요합니다. 다시 인증해 주세요"
+auth.reauth.invalid:
+  other: "본인 확인이 만료되었거나 유효하지 않습니다. 다시 인증해 주세요"
+auth.reauth.password_not_set:
+  other: "비밀번호가 설정되지 않은 계정입니다. 연동된 소셜 계정으로 본인 확인을 해 주세요"
+auth.reauth.invalid_request:
+  other: "잘못된 재인증 요청입니다"
+
+auth.reauth.success:
+  other: "본인 확인이 완료되었습니다"
+
+auth.email.already_verified:
+  other: "이미 인증된 이메일입니다"
+auth.email.verification_not_found:
+  other: "인증 요청을 찾을 수 없습니다"
+auth.email.verification_expired:
+  other: "인증 코드가 만료되었습니다"
+auth.email.verification_invalid:
+  other: "유효하지 않은 인증 코드입니다"
+auth.email.send_failed:
+  other: "인증 이메일 발송에 실패했습니다"
+
+auth.email.verification_sent:
+  other: "인증 코드가 발송되었습니다"
+auth.email.verified:
+  other: "이메일 인증이 완료되었습니다"
+
+auth.password.reset_not_found:
+  other: "비밀번호 재설정 요청을 찾을 수 없습니다"
+auth.password.reset_expired:
+  other: "비밀번호 재설정 코드가 만료되었습니다"
+auth.password.reset_invalid:
+  other: "유효하지 않은 비밀번호 재설정 코드입니다"
+
+auth.password.reset_email_sent:
+  other: "비밀번호 재설정 코드가 발송되었습니다"
+auth.password.reset_success:
+  other: "비밀번호가 재설정되었습니다"
+
+auth.otp.max_attempts_exceeded:
+  other: "인증 시도 횟수를 초과했습니다. 새 코드를 요청해주세요."
+
+auth.internal_error:
+  other: "인증 처리 중 오류가 발생했습니다"
+
+
+health.check.success:
+  other: "서비스가 정상 작동 중입니다"
+health.check.partial_failure:
+  other: "일부 서비스에 문제가 있습니다"
+
+
+auth.oauth.invalid_request:
+  other: "잘못된 OAuth 요청입니다"
+auth.oauth.state_invalid:
+  other: "유효하지 않은 인증 상태입니다. 다시 시도해주세요"
+auth.oauth.code_required:
+  other: "인증 코드가 필요합니다"
+auth.oauth.exchange_failed:
+  other: "OAuth 토큰 교환에 실패했습니다"
+
+auth.oauth.user_info_failed:
+  other: "사용자 정보를 가져올 수 없습니다"
+auth.oauth.email_required:
+  other: "이메일 정보가 필요합니다"
+
+auth.oauth.account_exists:
+  other: "이미 연동된 소셜 계정입니다"
+auth.oauth.provider_invalid:
+  other: "지원하지 않는 OAuth 제공자입니다"
+
+auth.oauth.login_success:
+  other: "소셜 로그인에 성공했습니다"
+auth.oauth.signup_success:
+  other: "소셜 계정으로 회원가입되었습니다"
+
+auth.oauth.internal_error:
+  other: "OAuth 처리 중 오류가 발생했습니다"
+
+auth.oauth.redirect_invalid:
+  other: "유효하지 않은 리다이렉트 URL입니다"
+auth.oauth.code_expired:
+  other: "인증 코드가 만료되었습니다. 다시 시도해주세요"
+auth.oauth.auth_denied:
+  other: "인증이 거부되었습니다"
+
+auth.oauth.not_linked:
+  other: "연동되지 않은 소셜 계정입니다"
+auth.oauth.reauth_mismatch:
+  other: "이 계정에 연동된 소셜 계정으로 본인 확인을 해 주세요"
+auth.login_method.last_method:
+  other: "마지막 로그인 수단은 해제할 수 없습니다. 계정을 삭제하려면 회원 탈퇴를 이용해 주세요"
+
+auth.oauth.start_success:
+  other: "소셜 인증 URL이 발급되었습니다"
+auth.oauth.link_success:
+  other: "소셜 계정이 연동되었습니다"
+auth.oauth.unlink_success:
+  other: "소셜 계정 연동이 해제되었습니다. 다시 로그인해 주세요"
+auth.oauth.reauth_verified:
+  other: "소셜 계정으로 본인 확인이 완료되었습니다"
+
+auth.oauth.exchange_success:
+  other: "토큰 교환에 성공했습니다"
+
+
+common.rate_limit_exceeded:
+  other: "요청이 너무 많습니다. 잠시 후 다시 시도해주세요"
+common.not_found:
+  other: "요청한 리소스를 찾을 수 없습니다"
+common.client_id_required:
+  other: "클라이언트 식별자가 필요합니다"
+common.client_not_allowed:
+  other: "허용되지 않은 클라이언트입니다"
+common.request_too_large:
+  other: "요청 본문이 너무 큽니다"
